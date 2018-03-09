@@ -1,13 +1,19 @@
 function setX (sprite, x){
-document.getElementsByClassName(sprite).style.position = "fixed";
-document.getElementsByClassName(sprite).style.right = x + "px";
-}
+ var els = document.getElementsByClassName(sprite);
+ for (var i = 0; i < els.length; i++) {
+  document.els.style.position = "fixed";
+  document.els.style.right = x + "px";    
+}}
 function setY (sprite, y){
-document.getElementsByClassName(sprite).style.position = "fixed";
-document.getElementsByClassName(sprite).style.bottom = y + "px";
-}
-function setXY (sprite, x, y){
-document.getElementsByClassName(sprite).style.position = "fixed";
-document.getElementsByClassName(sprite).style.right = x + "px";
-document.getElementsByClassName(sprite).style.bottom = y + "px";
-}
+ var els = document.getElementsByClassName(sprite);
+ for (var i = 0; i < els.length; i++) {
+  document.els.style.position = "fixed";
+  document.els.style.bottom = y + "px";    
+}}
+function setPosition (sprite, x, y){
+ var els = document.getElementsByClassName(sprite);
+ for (var i = 0; i < els.length; i++) {
+  document.els.style.position = "fixed";
+  document.els.style.right = x + "px";
+  document.els.style.right = y + "px";
+}}
