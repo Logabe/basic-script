@@ -1,0 +1,24 @@
+{
+  "name": "basic-script",
+  "version": "0.0.1",
+  "description": "A DOM modification tool",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^3.5.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/Logabe/basic-script"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
