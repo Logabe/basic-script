@@ -15,5 +15,5 @@ function setPosition (sprite, x, y){
  for (var i = 0; i < els.length; i++) {
   document.els.style.position = "fixed";
   document.els.style.right = x;
-  document.els.style.right = y;
+  document.els.style.bottom = y;
 }}
