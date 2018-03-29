@@ -2,7 +2,7 @@
   "name": "basic-script",
   "version": "0.0.1",
   "description": "A DOM modification tool",
-  "main": "server.js",
+  "private": true,
   "scripts": {
     "build": "webpack",
     "start": "webpack"
